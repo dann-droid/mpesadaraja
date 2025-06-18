@@ -24,7 +24,7 @@ curl_close($curl);
 
 // STEP 2: SEND STK PUSH
 $stk_push_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
-$callback = 'https://mpesadaraja.vercel.app/'; // use webhook.site or a dummy one if testing
+$callback = '	https://webhook.site/48e8a2c6-8234-4a24-8961-fdd5011a430d'; // use webhook.site or a dummy one if testing
 
 $payload = [
   'BusinessShortCode' => $shortCode,
